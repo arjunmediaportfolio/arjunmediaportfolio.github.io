@@ -1,0 +1,79 @@
+.header{
+	background-color: black;
+	margin: -10px;
+	padding-top: 3px;
+	color: white;
+}
+
+.headertitle{
+-webkit-animation-name: blink;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+-webkit-animation-duration: 1s;
+}
+
+hr {
+	border-color: red;
+}
+
+body{
+	background-color: lightgreen;
+}
+
+#nav{
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+
+#nav li{
+	display: inline;
+}
+
+#nav li a:link,
+#nav li a:visited{
+	color: blue;
+}
+
+#nav li a:hover,
+#nav li a:active{
+	color:red;
+}
+
+#nav li::after{
+	content: "  |  ";
+}
+
+#nav li.last::after{
+	content: "";
+}
+
+.articlebody h1{
+	text-align: center;
+	color: red;
+}
+
+#content{
+	font-family: arial;
+	font-size: 15px;
+}
+
+.spoilerbox {
+	background: yellow;
+	border-radius: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.spoilerbox a{
+	font-size: 12px;
+}
+
+.citations{
+	margin-top: 20px;
+	text-align: center;
+}
