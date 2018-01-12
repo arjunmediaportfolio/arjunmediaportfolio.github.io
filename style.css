@@ -53,6 +53,14 @@ body{
 	color: red;
 }
 
+.project-content{
+	text-align: center;
+}
+
+.project-content::before{
+	content: "_______________________";
+}
+
 #content{
 	font-family: arial;
 	font-size: 15px;
